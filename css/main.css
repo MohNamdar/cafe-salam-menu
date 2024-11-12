@@ -1,0 +1,24 @@
+/* Import fonts from Google Fonts */
+@import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/misc/Farsi-Digits/Vazirmatn-FD-font-face.css");
+
+
+*:not(i) {
+    /* Use the 'Vazirmatn' font for all text */
+    font-family: "Vazirmatn FD" !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield !important;
+}
+
+#auth-right {
+    background-image: linear-gradient(90deg, rgba(150, 150, 255, 0.5), rgba(150, 150, 255, 0.3)), url("../../assets/images/samples/cafe-view.jpg") !important;
+    background-size: cover !important;
+    background-color: #0f5132;
+}

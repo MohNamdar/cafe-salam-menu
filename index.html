@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="fa">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+    <title>
+        کافه سلام
+    </title>
+    <link href="./css/main.css" rel="stylesheet" />
+    <!-- Bootstrap CDN -->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet" />
+    <!-- Saman Menu Start -->
+    <link href="./css/style.css" rel="stylesheet" />
+    <!-- Saman Menu Start -->
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        referrerpolicy="no-referrer" rel="stylesheet">
+    </link>
+</head>
+<header>
+</header>
+
+<body>
+    <!-- Toast Message -->
+    <div class="container">
+        <br />
+    </div>
+    <!-- Saman Menu Start -->
+    <div class="mini-app-screen">
+        <!-- header -->
+        <div class="p-3 rounded bg-white">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-3">
+                    <img class="size-12 rounded-circle" src="./images/salam-logo.jpg" style="width: 80px;" />
+                    <h2 class="text-md">کافه بُردگیم سلام</h2>
+                </div>
+                <div class="d-flex align-items-center gap-1">
+                    <a class="md-rtl" href="tel:09023232388">
+                        <svg fill="none" height="22" viewbox="0 0 22 22" width="22" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.75 11H15.5833C15.5833 8.47 13.53 6.41667 11 6.41667V8.25C12.5217 8.25 13.75 9.47833 13.75 11ZM17.4167 11H19.25C19.25 6.44417 15.5558 2.75 11 2.75V4.58333C14.5475 4.58333 17.4167 7.4525 17.4167 11ZM18.3333 14.2083C17.1875 14.2083 16.0875 14.025 15.0608 13.6858C14.9692 13.6583 14.8683 13.64 14.7767 13.64C14.5383 13.64 14.3092 13.7317 14.1258 13.9058L12.1092 15.9225C9.515 14.6025 7.38833 12.485 6.06833 9.88167L8.085 7.85583C8.34167 7.6175 8.415 7.26 8.31417 6.93917C7.975 5.9125 7.79167 4.8125 7.79167 3.66667C7.79167 3.1625 7.37917 2.75 6.875 2.75H3.66667C3.1625 2.75 2.75 3.1625 2.75 3.66667C2.75 12.2742 9.72583 19.25 18.3333 19.25C18.8375 19.25 19.25 18.8375 19.25 18.3333V15.125C19.25 14.6208 18.8375 14.2083 18.3333 14.2083ZM4.61083 4.58333H5.98583C6.05 5.39 6.1875 6.1875 6.39833 6.94833L5.29833 8.0575C4.93167 6.94833 4.69333 5.79333 4.61083 4.58333ZM17.4167 17.3892C16.2067 17.3067 15.0333 17.0683 13.9333 16.6925L15.0333 15.5925C15.8125 15.8125 16.61 15.95 17.4167 16.005V17.3892Z"
+                                fill="black"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- nav groups list -->
+        <div class="swiper-container sticky-top z-3 py-3 backdrop-blur overflow-x-scroll overflow-y-none">
+            <div class="d-flex flex-row align-items-stretch"
+                style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);">
+                <!-- nav button -->
+                <div class="slide-button" style="width: 200px;">
+                    <div class="nav-item" role="button" style="width: 150px;">
+                        <a class="nav-link d-flex flex-column gap-2 align-items-center" href="#coldspreso">
+                            <img src="./images/category-icon/cold-spreso.png" style="width: 42px;" />
+                            <p class="">اسپرسوهای سرد</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- nav button -->
+                <div class="slide-button" style="width: 200px;">
+                    <div class="nav-item" role="button" style="width: 150px;">
+                        <a class="nav-link d-flex flex-column gap-2 align-items-center" href="#hot-spreso">
+                            <img src="./images/category-icon/hot-spreso.png" style="width: 42px;" />
+                            <p class="">اسپرسو‌های گرم</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- nav button -->
+                <div class="slide-button" style="width: 200px;">
+                    <div class="nav-item" role="button" style="width: 150px;">
+                        <a class="nav-link d-flex flex-column gap-2 align-items-center" href="#dmnosh">
+                            <img src="./images/category-icon/damnoosh.png" style="width: 42px;" />
+                            <p class="">دمنوش</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- nav button -->
+                <div class="slide-button" style="width: 200px;">
+                    <div class="nav-item" role="button" style="width: 150px;">
+                        <a class="nav-link d-flex flex-column gap-2 align-items-center" href="#shake">
+                            <img src="./images/category-icon/shake.png" style="width: 42px;" />
+                            <p class="">شیک</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- nav button -->
+                <div class="slide-button" style="width: 200px;">
+                    <div class="nav-item" role="button" style="width: 150px;">
+                        <a class="nav-link d-flex flex-column gap-2 align-items-center" href="#noshdnh-khn">
+                            <img src="./images/category-icon/cool-drink.png" style="width: 42px;" />
+                            <p class="">نوشیدنی‌های خنک</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- nav button -->
+                <div class="slide-button" style="width: 200px;">
+                    <div class="nav-item" role="button" style="width: 150px;">
+                        <a class="nav-link d-flex flex-column gap-2 align-items-center" href="#noshdnh-rm">
+                            <img src="./images/category-icon/hot-drinks.png" style="width: 42px;" />
+                            <p class="">نوشیدنی‌های گرم</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- nav button -->
+                <div class="slide-button" style="width: 200px;">
+                    <div class="nav-item" role="button" style="width: 150px;">
+                        <a class="nav-link d-flex flex-column gap-2 align-items-center" href="#cakes">
+                            <img src="./images/category-icon/cake.png" style="width: 42px;" />
+                            <p class="">کیک‌ها</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- nav button -->
+                <div class="slide-button" style="width: 200px;">
+                    <div class="nav-item" role="button" style="width: 150px;">
+                        <a class="nav-link d-flex flex-column gap-2 align-items-center" href="#boardgame">
+                            <img src="./images/category-icon/boardgame.png" style="width: 42px;" />
+                            <p class="">بُردگیم</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="slide-button" style="width: 200px;">
+                    <div class="nav-item" role="button" style="width: 150px;">
+                        <a class="nav-link d-flex flex-column gap-2 align-items-center" href="#breakfast">
+                            <img src="./images/category-icon/breakfast.png" style="width: 42px;" />
+                            <p class="">صبحانه</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- nav button -->
+                <div class="slide-button" style="width: 200px;">
+                    <div class="nav-item" role="button" style="width: 150px;">
+                        <a class="nav-link d-flex flex-column gap-2 align-items-center" href="#finger-food">
+                            <img src="./images/category-icon/fingerfood.png" style="width: 42px;" />
+                            <p class="">فینگر فود</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- categories list -->
+        <div class="d-flex flex-column">
+            <!-- category -->
+            <div class="px-4 pb-8 last-of-type:pb-4 gray-bg">
+                <div class="d-flex justify-content-start align-items-center gap-2 category-bg p-2 rounded my-3">
+                    <img class="rounded" src="./images/category-icon/cold-spreso.png" style="width: 50px;" />
+                    <h6 class="m-0" id="coldspreso">اسپرسوهای سرد</h6>
+                </div>
+                <div class="d-grid gap-3 w-100 d-grid gap-3 w-100 items-list">
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>آیس کارامل ماکیاتو</h3>
+                                <small class="text-muted">اسپرسو + شیر + سیروپ کارامل + آیس</small>
+                            </div>
+                            <img class="rounded" src="./images/items/ice-makiato.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">95</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>آیس موکا</h3>
+                                <small class="text-muted">اسپرسو + شیر + سیروپ شکلات + آیس</small>
+                            </div>
+                            <img class="rounded" src="./images/items/ice-mooka.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">95</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>آیس لته</h3>
+                                <small class="text-muted">اسپرسو + شیر + آیس</small>
+                            </div>
+                            <img class="rounded" src="./images/items/ice-latte.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">90</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>آیس آمریکانو</h3>
+                                <small class="text-muted">آمریکانو + آیس</small>
+                            </div>
+                            <img class="rounded" src="./images/items/Iced-Americano.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">70</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>آفوگاتو پسته ای</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/affogato.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">110</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>آفوگاتو</h3>
+                                <small class="text-muted">اسپرسو + بستنی</small>
+                            </div>
+                            <img class="rounded" src="./images/items/affogato2.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">90</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <!-- category -->
+            <div class="px-4 pb-8 last-of-type:pb-4 gray-bg">
+                <div class="d-flex justify-content-start align-items-center gap-2 category-bg p-2 rounded my-3">
+                    <img class="rounded" src="./images/category-icon/hot-spreso.png" style="width: 50px;" />
+                    <h6 class="m-0" id="hot-spreso">اسپرسو‌های گرم</h6>
+                </div>
+                <div class="d-grid gap-3 w-100 d-grid gap-3 w-100 items-list">
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>کارامل ماکیاتو</h3>
+                                <small class="text-muted">شیر فوم دار شده - اسپرسو - سیروپ کارامل</small>
+                            </div>
+                            <img class="rounded" src="./images/items/caramel-macchiato-fenjoonet.webp"
+                                style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">95</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>لته پسته‌ای</h3>
+                                <small class="text-muted">شیر فوم دار شده - اسپرسو - کره پسته</small>
+                            </div>
+                            <img class="rounded" src="./images/items/How-to-make-pistachio-latte3.webp"
+                                style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">110</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>موکا فندقی</h3>
+                                <small class="text-muted">شیر فوم دار شده - اسپرسو - کره فندق</small>
+                            </div>
+                            <img class="rounded" src="./images/items/mooka-fandoghi.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">100</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>آمریکانو</h3>
+                                <small class="text-muted">اسپرسو + آبجوش</small>
+                            </div>
+                            <img class="rounded" src="./images/items/Americano-coffee.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">70</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>موکا</h3>
+                                <small class="text-muted">شیر فوم دار شده - اسپرسو - سیروپ شکلات</small>
+                            </div>
+                            <img class="rounded" src="./images/items/mooka.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">95</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>لته</h3>
+                                <small class="text-muted">اسپرسو - شیر فوم دار شده</small>
+                            </div>
+                            <img class="rounded" src="./images/items/latte-fenjoonet.jpg" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">90</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>اسپرسو</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/spreso.jpg" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">70</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <!-- category -->
+            <div class="px-4 pb-8 last-of-type:pb-4 gray-bg">
+                <div class="d-flex justify-content-start align-items-center gap-2 category-bg p-2 rounded my-3">
+                    <img class="rounded" src="./images/category-icon/damnoosh.png" style="width: 50px;" />
+                    <h6 class="m-0" id="dmnosh">دمنوش</h6>
+                </div>
+                <div class="d-grid gap-3 w-100 d-grid gap-3 w-100 items-list">
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>دمنوش میوه‌ها</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/fruit-tea-4.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">55</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>چای ترش</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/chaitosh.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">50</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>چای سبز</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/green-tea-properties.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">50</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>چای نبات</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/tea-and-nabat2-min-300x200.webp"
+                                style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">50</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>چای سیاه</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/black-tea.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">45</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <!-- category -->
+            <div class="px-4 pb-8 last-of-type:pb-4 gray-bg">
+                <div class="d-flex justify-content-start align-items-center gap-2 category-bg p-2 rounded my-3">
+                    <img class="rounded" src="./images/category-icon/shake.png" style="width: 50px;" />
+                    <h6 class="m-0" id="shake">شیک</h6>
+                </div>
+                <div class="d-grid gap-3 w-100 d-grid gap-3 w-100 items-list">
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>شیک پنیر و پسته</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/default-image.png" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">120</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>شیک تیرامیسو</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/shake-tiramiso.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">120</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>شیک پسته</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/shake-peste.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">130</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>شیک نوتلا</h3>
+                                <small class="text-muted">بستنی وانیلی - شیر - خامه - نوتلا</small>
+                            </div>
+                            <img class="rounded" src="./images/items/shake-nutella.jpg" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">120</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <!-- category -->
+            <div class="px-4 pb-8 last-of-type:pb-4 gray-bg">
+                <div class="d-flex justify-content-start align-items-center gap-2 category-bg p-2 rounded my-3">
+                    <img class="rounded" src="./images/category-icon/cool-drink.png" style="width: 50px;" />
+                    <h6 class="m-0" id="noshdnh-khn">نوشیدنی‌های خنک</h6>
+                </div>
+                <div class="d-grid gap-3 w-100 d-grid gap-3 w-100 items-list">
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>شربت دارچین</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/default-image.png" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">90</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>نسیم بری</h3>
+                                <small class="text-muted">طعم جدید از بری‌ها</small>
+                            </div>
+                            <img class="rounded" src="./images/default-image.png" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">90</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>اقیانوس</h3>
+                                <small class="text-muted">طعم تازه‌ای از پرتغال</small>
+                            </div>
+                            <img class="rounded" src="./images/default-image.png" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">100</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>مازرگان پرتغالی</h3>
+                                <small class="text-muted">ترکیبی سرد از اسپرسو و پرتغال</small>
+                            </div>
+                            <img class="rounded" src="./images/default-image.png" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">120</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>پیناکولادا</h3>
+                                <small class="text-muted">سیروپ رام - شیر - سیروپ نارگیل - آب آناناس</small>
+                            </div>
+                            <img class="rounded" src="./images/items/pinakolada.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">90</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>لیموناد</h3>
+                                <small class="text-muted">لیمو ترش تازه - سودا - شکر</small>
+                            </div>
+                            <img class="rounded" src="./images/items/limoonad.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">90</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>موهیتو</h3>
+                                <small class="text-muted">نعنا تازه - لیمو ترش تازه - سیروپ نعنا - سودا</small>
+                            </div>
+                            <img class="rounded" src="./images/items/mohito.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">95</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <!-- category -->
+            <div class="px-4 pb-8 last-of-type:pb-4 gray-bg">
+                <div class="d-flex justify-content-start align-items-center gap-2 category-bg p-2 rounded my-3">
+                    <img class="rounded" src="./images/category-icon/hot-drinks.png" style="width: 50px;" />
+                    <h6 class="m-0" id="noshdnh-rm">نوشیدنی‌های گرم</h6>
+                </div>
+                <div class="d-grid gap-3 w-100 d-grid gap-3 w-100 items-list">
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>کَرَک پسته‌ای</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/karaki.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">80</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>ماسالا</h3>
+                                <small class="text-muted"></small>
+                            </div>
+                            <img class="rounded" src="./images/items/chai-tea-.webp" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">70</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>هات چاکلت فندقی</h3>
+                                <small class="text-muted">شیر فوم دار شده - پورد کاکائو + کره فندق</small>
+                            </div>
+                            <img class="rounded" src="./images/items/hot-chocolate-fenjoonet3.webp"
+                                style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">95</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>هات چاکلت</h3>
+                                <small class="text-muted">شیر فوم دار شده - پورد کاکائو</small>
+                            </div>
+                            <img class="rounded" src="./images/items/hot-chocolate-fenjoonet3.webp"
+                                style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">85</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <!-- category -->
+            <div class="px-4 pb-8 last-of-type:pb-4 gray-bg">
+                <div class="d-flex justify-content-start align-items-center gap-2 category-bg p-2 rounded my-3">
+                    <img class="rounded" src="./images/category-icon/cake.png" style="width: 50px;" />
+                    <h6 class="m-0" id="cakes">کیک‌ها</h6>
+                    <span class="text-sm text-gray-600"> - موجود در شوکیک</span>
+
+                </div>
+                <div class="d-grid gap-3 w-100 d-grid gap-3 w-100 items-list">
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>به زودی</h3>
+                            </div>
+                            <img class="rounded" src="./images/coming-soon.jpg" style="width: 120px;" />
+                        </div>
+
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <!-- category -->
+            <div class="px-4 pb-8 last-of-type:pb-4 gray-bg">
+                <div class="d-flex justify-content-start align-items-center gap-2 category-bg p-2 rounded my-3">
+                    <img class="rounded" src="./images/category-icon/boardgame.png" style="width: 50px;" />
+                    <h6 class="m-0" id="boardgame">بُردگیم</h6>
+                </div>
+                <div class="d-grid gap-3 w-100 d-grid gap-3 w-100 items-list">
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>یک ساعت برد گیم</h3>
+                                <small class="text-muted">برای 2 یا 3 نفر</small>
+                            </div>
+                            <img class="rounded" src="./images/category-icon/boardgame.png" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">80</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>یک ساعت برد گیم</h3>
+                                <small class="text-muted">برای بیش از 3 نفر</small>
+                            </div>
+                            <img class="rounded" src="./images/category-icon/boardgame.png" style="width: 120px;" />
+                        </div>
+                        <!-- footer -->
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <div class="flex gap-1 items-center"><span class="font-bold"
+                                        style="font-size: 20px">130</span><span class="text-gray-500 text-xs">
+                                        هزار تومان</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <!-- category -->
+            <div class="px-4 pb-8 last-of-type:pb-4 gray-bg">
+                <div class="d-flex justify-content-start align-items-center gap-2 category-bg p-2 rounded my-3">
+                    <img class="rounded" src="./images/category-icon/breakfast.png" style="width: 50px;" />
+                    <h6 class="m-0" id="breakfast">صبحانه</h6>
+                    <span class="text-sm text-gray-600"> - موجود در شوکیک</span>
+
+                </div>
+                <div class="d-grid gap-3 w-100 d-grid gap-3 w-100 items-list">
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>به زودی</h3>
+                            </div>
+                            <img class="rounded" src="./images/coming-soon.jpg" style="width: 120px;" />
+                        </div>
+
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <!-- category -->
+            <div class="px-4 pb-8 last-of-type:pb-4 gray-bg">
+                <div class="d-flex justify-content-start align-items-center gap-2 category-bg p-2 rounded my-3">
+                    <img class="rounded" src="./images/category-icon/fingerfood.png" style="width: 50px;" />
+                    <h6 class="m-0" id="finger-food">فینگر فود</h6>
+                    <span class="text-sm text-gray-600"> - موجود در شوکیک</span>
+                </div>
+                <div class="d-grid gap-3 w-100 d-grid gap-3 w-100 items-list">
+                    <!-- item -->
+                    <div class="d-flex flex-column gap-3 bg-white rounded p-3" role="button">
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="d-flex justify-content-between align-items-start flex-column">
+                                <h3>به زودی</h3>
+                            </div>
+                            <img class="rounded" src="./images/coming-soon.jpg" style="width: 120px;" />
+                        </div>
+
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+        <p class="text-center category-bg border p-2">کافه بردگیم سلام</p>
+    </div>
+    <script src="./js/script.js"></script>
+    <!-- Saman Menu End -->
+    <!-- Bootstap CDN -->
+    <script crossorigin="anonymous" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+<footer>
+</footer>
+
+</html>
