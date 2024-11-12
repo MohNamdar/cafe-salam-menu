@@ -8,8 +8,10 @@
 }
 
 .category-bg {
-    background: rgba(159, 125, 94, 0.40);
-    border-color: rgba(159, 125, 94, 1);
+    /* background: rgba(159, 125, 94, 0.40);
+    border-color: rgba(159, 125, 94, 1); */
+    background: rgba(34, 168, 147, 0.4);
+    border-color: #22A893;
     border-width: 1.5px 8px 1.5px 1.5px;
 }
 
